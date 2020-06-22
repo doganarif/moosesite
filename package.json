@@ -4,6 +4,9 @@
   "scripts": {
     "start": "grunt build && node index.js"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "devDependencies": {
     "compass": "^0.1.1",
     "compass-mixins": "^0.12.10",
